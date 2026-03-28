@@ -139,7 +139,7 @@ API docs → http://localhost:8000/docs
 
 ## References
 
-- [CheXNet: Radiologist-Level Pneumonia Detection](https://arxiv.org/abs/1711.05225) — Rajpurkar et al., 2017
+- [CheXNet: Radiologist-Level Pneumonia Detection](https://arxiv.org/abs/1711.05225) 
 - [NIH Chest X-ray14 Dataset](https://nihcc.app.box.com/v/ChestXray-NIHCC)
 - [torchvision DenseNet](https://pytorch.org/vision/stable/models.html)
 - [Grad-CAM: Visual Explanations from Deep Networks](https://arxiv.org/abs/1610.02391)
