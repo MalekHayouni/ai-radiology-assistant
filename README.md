@@ -1,4 +1,4 @@
-# 🫁 AI Radiology Assistant
+# AI Radiology Assistant
 
 > Multi-label pathology detection from chest X-rays using CheXNet DenseNet-121 pretrained on NIH Chest X-ray14.
 
