@@ -146,4 +146,4 @@ API docs → http://localhost:8000/docs
 
 ---
 
-*Portfolio project — Malek Hayouni · ESPRIT School of Engineering · 2026*
+*Portfolio project:  Malek Hayouni · ESPRIT School of Engineering · 2026*
