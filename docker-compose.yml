@@ -1,0 +1,31 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    container_name: radiology_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+    environment:
+      - MODEL_WEIGHTS_PATH=/app/weights/chexnet.pth
+    networks:
+      - radiology_net
+
+  frontend:
+    build: ./frontend
+    container_name: radiology_frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+    networks:
+      - radiology_net
+
+networks:
+  radiology_net:
+    driver: bridge
