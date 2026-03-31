@@ -129,11 +129,11 @@ API docs → http://localhost:8000/docs
 
 | Phase | Milestone | Status |
 |---|---|---|
-| 1 | Dataset exploration, project scaffolding, research notes | ✅ Done |
-| 2 | DenseNet-121 model loader, preprocessing pipeline | 🔄 In Progress |
-| 3 | FastAPI endpoints, Grad-CAM generation | 📋 Planned |
-| 4 | React upload UI, heatmap viewer, scores panel | 📋 Planned |
-| 5 | Model evaluation (AUC per class), Docker Compose, demo | 📋 Planned |
+| 1 | Dataset exploration, project scaffolding, research notes | Done |
+| 2 | DenseNet-121 model loader, preprocessing pipeline | Done |
+| 3 | FastAPI endpoints, Grad-CAM generation |  in progress |
+| 4 | React upload UI, heatmap viewer, scores panel |  Planned |
+| 5 | Model evaluation (AUC per class), Docker Compose, demo |  Planned |
 
 ---
 
@@ -146,4 +146,4 @@ API docs → http://localhost:8000/docs
 
 ---
 
-*Portfolio project:  Malek Hayouni · ESPRIT School of Engineering · 2026*
+*Portfolio project:  Malek Hayouni*
